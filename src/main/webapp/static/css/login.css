@@ -1,0 +1,27 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  text-align: center;
+  justify-content: center;
+}
+.login__title > * {
+  margin: 20px 0;
+}
+.login__title__main {
+  color: navy;
+  font-size: 26px;
+}
+.login__submit {
+  margin-top: 10px;
+}
+.login__submit button {
+  width: 100px;
+  margin-bottom: 5px;
+}
+.login--important {
+  color: red;
+}
+.login .form-group:nth-child(1) {
+  margin-bottom: 20px;
+}

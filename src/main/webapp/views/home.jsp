@@ -3,6 +3,12 @@
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <%@ taglib prefix="t" tagdir="/WEB-INF/tags" %>
 
+
+<head>
+    <link type="text/css" rel="stylesheet"
+        href="<c:url value='/static/css/home.css' />" />
+</head>
+    
 <t:pagelayout>
 
     <div class="row home">

@@ -1,22 +1,43 @@
 package edu.funix.lab231x.ass06.model;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-
 import java.util.Arrays;
 
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
-@Builder
+
 public class User {
 
 
-    private String username;
+    public User() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	private String username;
 
     private String password;
+
+	public String getUsername() {
+		return username;
+	}
+
+	public void setUsername(String username) {
+		this.username = username;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public User(String username, String password) {
+		super();
+		this.username = username;
+		this.password = password;
+	}
+    
+    
 
 
 }

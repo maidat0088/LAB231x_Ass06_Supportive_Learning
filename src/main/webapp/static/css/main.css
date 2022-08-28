@@ -18,12 +18,9 @@
   width: 100%;
   justify-content: left;
   font-weight: 400;
-  height: 50px;
+  height: 45px;
 }
-.button-link:hover {
-  color: black;
-  border: 2px solid red;
-}
+
 
 .form-group--input:focus {
   outline: none !important;
@@ -61,7 +58,7 @@
   flex-wrap: nowrap;
 }
 .page__left {
-  padding: 50px 5px;
+  padding: 45px 5px;
   flex: 0 0 17%;
 }
 .page__center {
@@ -69,37 +66,10 @@
   padding: 0 40px;
 }
 .page__right {
-  padding: 50px 5px;
+  padding: 45px 5px;
   flex: 0 0 17%;
 }
 
-.login {
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-  text-align: center;
-  justify-content: center;
-}
-.login__title > * {
-  margin: 20px 0;
-}
-.login__title__main {
-  color: navy;
-  font-size: 26px;
-}
-.login__submit {
-  margin-top: 10px;
-}
-.login__submit button {
-  width: 100px;
-  margin-bottom: 5px;
-}
-.login--important {
-  color: red;
-}
-.login .form-group:nth-child(1) {
-  margin-bottom: 20px;
-}
 
 .container {
   width: 1200px !important;
@@ -109,4 +79,6 @@
   box-sizing: border-box !important;
 }
 
-/*# sourceMappingURL=main.css.map */
+.aside-left__datetime{
+	color : blue;
+}
